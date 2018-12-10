@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Starting App',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.blueGrey[900],
       ),
       home: new DrawerCustom(),
     );
